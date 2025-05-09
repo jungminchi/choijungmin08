@@ -22,24 +22,24 @@ st.link_button("suv가 의미 없어??????", 'https://www.youtube.com/watch?v=sz
 if st.button("클릭하세요"):
     st.write("당신은 논바이어리티 입니다")
     # 한 줄 텍스트 입력
-name = st.text_input("이름을 입력하세요")
+name = st.text_input("이름 써라라")
 st.write("입력된 이름:", name)
 
 # 여러 줄 텍스트 입력
-feedback = st.text_area("의견을 입력하세요")
+feedback = st.text_area("뭔 말하려고고")
 st.write("입력된 의견:", feedback)
 # 정수 혹은 실수 입력
-age = st.number_input("나이를 입력하세요", min_value=0, max_value=120, step=1)
+age = st.number_input("너 몇살이야!!!!!", min_value=0, max_value=120, step=1)
 st.write("입력된 나이:", age)
 # 체크 여부에 따라 분기
-agree = st.checkbox("위 조건에 동의합니다")
+agree = st.checkbox("예 아니오로 대답하시오오")
 if agree:
-    st.write("감사합니다! 계속 진행합니다.")
+    st.write("진행시켜켜.")
     # 여러 옵션 중 하나 선택
-gender = st.radio("성별을 선택하세요", ["남성", "여성", "기타"])
+gender = st.radio("성별을 선택하세요", ["남성", "여성", "오징어어"])
 st.write("선택한 성별:", gender)
 # 드롭다운에서 하나 선택
-color = st.selectbox("좋아하는 색을 선택하세요", ["빨강", "초록", "파랑"])
+color = st.selectbox("좋아하는 색을 선택하세요", ["빨강", "노랑랑", "파랑"])
 st.write("선택한 색상:", color)
 
 # 여러 개 선택
